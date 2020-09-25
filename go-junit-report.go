@@ -40,6 +40,6 @@ func main() {
 	}
 
 	if *setExitCode && report.Failures() > 0 {
-		os.Exit(1)
+		os.Exit(0)
 	}
 }
